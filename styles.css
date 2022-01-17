@@ -1,0 +1,88 @@
+html {
+	font-family: "Trebuchet MS", sans-sarif;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+body {
+	background-color:#0a415c;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;	
+	align-items: center;
+}
+
+.nav-bar {
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	color: black;
+	font-size: 2rem;
+	padding: 20px;
+	color: white;
+}
+
+.nav-bar a:link, .nav-bar a:visited {
+	color: white;
+}
+.nav-bar a:hover {
+	color:#048230;
+}
+
+
+.cv-download-button {
+	width: 150px;
+	height: 30px;
+	border: 2px solid black;
+	background-color: #0a415c;
+	color: black;
+	font-size: 1.6rem;
+	cursor: pointer;
+	border-radius: 20px;
+	
+}
+
+.cv-download-button {
+	border-color: #048230;
+	  color: #048230;
+}
+
+.cv-download-button:hover {
+	background-color:#048230;
+	color: white;
+}
+
+header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-title {
+	position: absolute;
+	border: 2px solid white;
+	order: 1;
+	color: white;
+	width: 500px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 4rem;
+	text-transform: uppercase;
+}
+
+header img {
+	width: 100%;
+	margin-bottom: -100px;
+	
+}
