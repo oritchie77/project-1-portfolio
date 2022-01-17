@@ -53,19 +53,15 @@ nav {
 .cv-download-button {
 	width: 150px;
 	height: 30px;
-	border: 2px solid black;
+	border: 2px solid #048230;
 	background-color: #0a415c;
-	color: black;
+	color: #048230;
 	font-size: 1.6rem;
 	cursor: pointer;
 	border-radius: 20px;
 	
 }
 
-.cv-download-button {
-	border-color: #048230;
-	  color: #048230;
-}
 
 .cv-download-button:hover {
 	background-color:#048230;
