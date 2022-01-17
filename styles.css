@@ -83,6 +83,22 @@ header {
 
 header img {
 	width: 100%;
-	margin-bottom: -100px;
-	
 }
+
+.portfolio {
+	border: 3px solid white;
+	width: 55%;
+	padding: 20px;
+	color:#cfd2d4;
+}
+
+.portfolio-card {
+	border: 3px solid white;
+	padding: 20px;
+	margin: 20px 0px;
+}
+
+.portfolio-card img{
+	width: 50%;
+}
+
