@@ -10,6 +10,18 @@ body {
 	padding: 0;
 }
 
+h2 {
+	font-size: 3rem;
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
 nav {
 	display: flex;
 	flex-direction: row;
@@ -81,6 +93,13 @@ header {
 	text-transform: uppercase;
 }
 
+main {
+	color:#cfd2d4;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+}
+
 header img {
 	width: 100%;
 }
@@ -89,7 +108,6 @@ header img {
 	border: 3px solid white;
 	width: 55%;
 	padding: 20px;
-	color:#cfd2d4;
 }
 
 .portfolio-card {
@@ -100,5 +118,15 @@ header img {
 
 .portfolio-card img{
 	width: 50%;
+}
+
+.about {
+	border: 3px solid white;
+	width: 30%;
+	padding: 20px;
+}
+
+.about img {
+	width: 100%;
 }
 
