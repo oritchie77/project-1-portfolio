@@ -1,11 +1,11 @@
 html {
-	font-family: "Trebuchet MS", sans-sarif;
+	font-family: "Trebuchet MS", sans-serif;
 	box-sizing: border-box;
 	font-size: 10px;
 }
 
 body {
-	background-color:#0a415c;
+	background-color: #0a415c;
 	margin: 0;
 	padding: 0;
 	color:#cfd2d4;
@@ -45,7 +45,7 @@ nav {
 	color: #cfd2d4;
 }
 .nav-bar a:hover {
-	color:#048230;
+	color: #048230;
 }
 
 
@@ -63,7 +63,7 @@ nav {
 
 
 .cv-download-button:hover {
-	background-color:#048230;
+	background-color: #048230;
 	color: #cfd2d4;
 }
 
