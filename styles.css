@@ -101,7 +101,7 @@ header img {
 
 .portfolio {
 	width: 55%;
-	height: 1000px;
+	height: 800px;
 	padding: 20px;
 	overflow: scroll;
 }
@@ -120,7 +120,7 @@ header img {
 	border: 1px solid;
 	width: 30%;
 	padding: 20px;
-	height: 1000px;
+	height: 800px;
 }
 
 .about img {
@@ -138,4 +138,21 @@ header img {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+	html {
+		font-size: 8px;
+	}
+	
+	.portfolio {
+		width: 90vw;
+	}
+	
+	.about {
+		width: 90vw;
+	}
+	.header-title {
+		width: 70vw;
+	}
 }
