@@ -8,6 +8,7 @@ body {
 	background-color:#0a415c;
 	margin: 0;
 	padding: 0;
+	color:#cfd2d4;
 }
 
 h2 {
@@ -36,14 +37,12 @@ nav {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
-	color: black;
 	font-size: 2rem;
 	padding: 20px;
-	color: white;
 }
 
 .nav-bar a:link, .nav-bar a:visited {
-	color: white;
+	color: #cfd2d4;
 }
 .nav-bar a:hover {
 	color:#048230;
@@ -59,13 +58,13 @@ nav {
 	font-size: 1.6rem;
 	cursor: pointer;
 	border-radius: 20px;
-	
+	margin: 0 20px;
 }
 
 
 .cv-download-button:hover {
 	background-color:#048230;
-	color: white;
+	color: #cfd2d4;
 }
 
 header {
@@ -73,13 +72,13 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 
 .header-title {
 	position: absolute;
-	border: 2px solid white;
+	border: 2px solid;
 	order: 1;
-	color: white;
 	width: 500px;
 	height: 60px;
 	display: flex;
@@ -90,7 +89,6 @@ header {
 }
 
 main {
-	color:#cfd2d4;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
@@ -101,28 +99,41 @@ header img {
 }
 
 .portfolio {
-	border: 3px solid white;
 	width: 55%;
+	height: 1000px;
 	padding: 20px;
+	overflow: scroll;
 }
 
 .portfolio-card {
-	border: 3px solid white;
+	border: 1px solid;
 	padding: 20px;
 	margin: 20px 0px;
 }
 
 .portfolio-card img{
-	width: 50%;
+	width: 40%;
 }
 
 .about {
-	border: 3px solid white;
 	width: 30%;
 	padding: 20px;
+	height: 1000px;
 }
 
 .about img {
-	width: 100%;
+	width: 60%;
 }
 
+.contact {
+	background-color: #6a6c6e;
+	margin: 0;
+	padding: 20px 60px;
+}
+
+.social-link-icons {
+	width: 200px;
+	display: flex;
+	flex-flow: row warp;
+	justify-content: space-between;
+}
