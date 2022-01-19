@@ -88,6 +88,8 @@ main {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	max-width: 2000px;
+	height: auto;
+	position: relative;
 }
 
 header img {
@@ -95,9 +97,7 @@ header img {
 }
 
 .portfolio {
-	height: 800px;
 	padding: 20px;
-	overflow: scroll;
 }
 
 .portfolio-card {
