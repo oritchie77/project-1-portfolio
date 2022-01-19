@@ -88,6 +88,8 @@ main {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	max-width: 2000px;
+	height: auto;
+	position: relative;
 }
 
 header img {
@@ -95,9 +97,7 @@ header img {
 }
 
 .portfolio {
-	height: 800px;
 	padding: 20px;
-	overflow: scroll;
 }
 
 .portfolio-card {
@@ -130,6 +130,16 @@ header img {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+}
+
+footer {
+	background-color: #232324;
+	padding:0 20px;
+	margin: 0;
+}
+
+footer p{
+	margin: 0;
 }
 
 @media screen and (max-width: 600px){
