@@ -104,8 +104,6 @@ header img {
 }
 
 .portfolio {
-	display: flex;
-	flex-flow: column wrap;
 	border: 1px solid;
 	margin: 20px;
 	padding: 20px;
