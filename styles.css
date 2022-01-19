@@ -43,10 +43,10 @@ nav {
 .nav-bar a:link, .nav-bar a:visited {
 	color: #cfd2d4;
 }
+
 .nav-bar a:hover {
 	color: #048230;
 }
-
 
 .cv-download-button {
 	padding: 5px 20px;
@@ -58,7 +58,6 @@ nav {
 	border-radius: 20px;
 	margin: 0 20px;
 }
-
 
 .cv-download-button:hover {
 	background-color: #048230;
