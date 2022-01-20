@@ -113,7 +113,7 @@ header img {
 }
 
 .portfolio {
-	border: 1px solid;
+	border-bottom: 1px solid;
 	margin: 20px;
 	padding: 20px;
 }
@@ -137,21 +137,10 @@ header img {
 	height: 200px;
 }
 
-.about {
-	/*display: flex;
-	flex-flow: column nowrap;
-	border: 1px solid;
-	margin: 20px;
-	padding: 20px;
-	position: sticky;
-	height: 900px;
-	top: 45px;*/
-}
-
 .about-card {
 	display: flex;
 	flex-flow: column nowrap;
-	border: 1px solid;
+	border-left: 1px solid;
 	margin: 20px;
 	padding: 20px;
 	position: sticky;
