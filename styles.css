@@ -135,6 +135,7 @@ header img {
 	margin: 20px;
 	padding: 20px;
 	min-width: 300px;
+	position: sticky;
 }
 
 .about a:link, .about a:visited {
