@@ -140,7 +140,6 @@ header img {
 .about a:link, .about a:visited {
 	color: #e02c5e;
 	font-weight: bold;
-	
 }
 
 .contact {
@@ -152,12 +151,12 @@ header img {
 .social-link-icons {
 	display: flex;
 	justify-content: flex-start;
+	gap: 20px;
 }
 
 .social-link-icons-container {
 	display: flex;
 	align-items: center;
-	margin: 0 20px 10px 0;
 }
 
 footer {
