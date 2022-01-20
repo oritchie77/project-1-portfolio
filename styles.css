@@ -1,6 +1,9 @@
 :root {
 	--dark-blue: #0a415c;
 	--my-white: #cfd2d4;
+	--my-gray: #6a6c6e;
+	--my-dark-gray: #232324;
+	--my-green: #048230;
 }
 
 html {
@@ -11,6 +14,10 @@ html {
 body {
 	background-color: var(--dark-blue);
 	color: var(--my-white);
+}
+
+a {
+	text-decoration: none;
 }
 
 h1 {
@@ -40,7 +47,7 @@ h3 {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.7rem;
 }
 
 nav {
@@ -49,6 +56,10 @@ nav {
 	flex-wrap: nowrap;
 	justify-content: space-between;	
 	align-items: center;
+	position: fixed;
+	background-color: var(--my-dark-gray);
+	z-index: 1;
+	width: 100%;
 }
 
 .nav-bar {
@@ -57,7 +68,7 @@ nav {
 	flex-wrap: nowrap;
 	gap: 20px;
 	font-size: 2rem;
-	padding: 20px;
+	padding: 10px 20px;
 }
 
 .nav-bar a:link, .nav-bar a:visited {
@@ -65,13 +76,13 @@ nav {
 }
 
 .nav-bar a:hover {
-	color: #048230;
+	color: var(--my-green);
 }
 
 .cv-download-button {
 	padding: 5px 20px;
-	border: 2px solid #048230;
-	background-color: var(--dark-blue);
+	border: 2px solid var(--my-green);
+	background-color: var(--my-dark-gray);
 	color: #048230;
 	font-size: 1.6rem;
 	cursor: pointer;
@@ -80,7 +91,7 @@ nav {
 }
 
 .cv-download-button:hover {
-	background-color: #048230;
+	background-color: var(--my-green);
 	color: var(--my-white);
 }
 
@@ -88,12 +99,10 @@ header {
 	position: relative;
 }
 
-
-
 .portfolio-about-container {
 	margin-top: 20px;
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 2fr;
 	max-width: 2000px;
 	padding: 20px;
 }
@@ -133,10 +142,13 @@ header img {
 	border: 1px solid;
 	margin: 20px;
 	padding: 20px;
+	position: sticky;
+	height: 900px;
+	top: 45px;
 }
 
 .about img {
-	width: 100%;
+	width: 80%;
 }
 
 .about a:link, .about a:visited {
@@ -145,7 +157,7 @@ header img {
 }
 
 .contact {
-	background-color: #6a6c6e;
+	background-color: var(--my-gray);
 	margin: 0;
 	padding: 20px 60px;
 }
@@ -162,13 +174,14 @@ header img {
 }
 
 footer {
-	background-color: #232324;
+	background-color: var(--my-dark-gray);
 	padding:0 20px;
 	color: #ffffff;
 }
 
 footer p {
 	margin: 0;
+	font-size: 1rem;
 }
 
 @media screen and (max-width: 850px){
