@@ -48,6 +48,7 @@ h3 {
 
 p {
 	font-size: 1.7rem;
+	text-align: justify;
 }
 
 nav {
@@ -137,13 +138,23 @@ header img {
 }
 
 .about {
-	display: flex;
+	/*display: flex;
 	flex-flow: column nowrap;
 	border: 1px solid;
 	margin: 20px;
 	padding: 20px;
 	position: sticky;
 	height: 900px;
+	top: 45px;*/
+}
+
+.about-card {
+	display: flex;
+	flex-flow: column nowrap;
+	border: 1px solid;
+	margin: 20px;
+	padding: 20px;
+	position: sticky;
 	top: 45px;
 }
 
