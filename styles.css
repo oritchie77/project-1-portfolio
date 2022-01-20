@@ -3,6 +3,7 @@
 	--my-white: #cfd2d4;
 	--my-gray: #6a6c6e;
 	--my-dark-gray: #232324;
+	--my-green: #048230;
 }
 
 html {
@@ -46,7 +47,7 @@ h3 {
 }
 
 p {
-	font-size: 2rem;
+	font-size: 1.7rem;
 }
 
 nav {
@@ -75,12 +76,12 @@ nav {
 }
 
 .nav-bar a:hover {
-	color: #048230;
+	color: var(--my-green);
 }
 
 .cv-download-button {
 	padding: 5px 20px;
-	border: 2px solid #048230;
+	border: 2px solid var(--my-green);
 	background-color: var(--my-dark-gray);
 	color: #048230;
 	font-size: 1.6rem;
@@ -90,7 +91,7 @@ nav {
 }
 
 .cv-download-button:hover {
-	background-color: #048230;
+	background-color: var(--my-green);
 	color: var(--my-white);
 }
 
@@ -142,12 +143,12 @@ header img {
 	margin: 20px;
 	padding: 20px;
 	position: sticky;
-	height: 850px;
-	top: 43px;
+	height: 700px;
+	top: 45px;
 }
 
 .about img {
-	width: 100%;
+	width: 80%;
 }
 
 .about a:link, .about a:visited {
