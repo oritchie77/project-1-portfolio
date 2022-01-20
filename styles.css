@@ -40,7 +40,7 @@ h3 {
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 nav {
@@ -137,6 +137,12 @@ header img {
 	min-width: 300px;
 }
 
+.about a:link, .about a:visited {
+	color: #e02c5e;
+	font-weight: bold;
+	
+}
+
 .contact {
 	background-color: #6a6c6e;
 	margin: 0;
@@ -144,9 +150,14 @@ header img {
 }
 
 .social-link-icons {
-	width: 200px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
+}
+
+.social-link-icons-container {
+	display: flex;
+	align-items: center;
+	margin: 0 20px 10px 0;
 }
 
 footer {
